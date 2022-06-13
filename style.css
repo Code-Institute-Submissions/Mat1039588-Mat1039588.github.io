@@ -155,12 +155,6 @@ nav {
     transition: 1s;
 }
 
-/*---icons for the toggle menu on mobile devices---*/
-
-nav .fa {
-    display: none;
-}
-
 /*---media query section---*/
 
 @media(max-width: 700px) {
@@ -169,31 +163,95 @@ nav .fa {
     }
 }
 
-.nav-links ul li {
-    display: block;
+/*----page list-----*/
+
+.pagelist {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.nav-links {
+/*----eric page list----*/
+
+.eric {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eric img {
+    width: 50%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    background: #e2ab07;
-    height: 100vh;
-    width: 200px;
-    top: 0%;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
+    top: 0;
+    left: 0%;
+    transition: 0.5s;
 }
 
-nav .fa {
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
+.layer:hover {
+    background: rgba(245, 167, 11, 0.7);
 }
 
-.nav-links ul {
-    padding: 30px;
+/*----david page list----*/
 
+.david {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.david img {
+    width: 50%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(245, 167, 11, 0.7);
+}
+
+/*----eddie page list----*/
+
+.eddie {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eddie img {
+    width: 50%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(245, 167, 11, 0.7);
 }
