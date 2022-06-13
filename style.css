@@ -210,6 +210,7 @@ nav {
     background: rgba(245, 167, 11, 0.7);
 }
 
+
 /*----david page list----*/
 
 .david-col {
@@ -317,6 +318,17 @@ nav {
     text-align: left;
 }
 
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .eric-box p {
+        color: #1c00b5;
+        font-size: small;
+    }
+}
+
 
 
 /*----david gilmour page----*/
@@ -351,6 +363,17 @@ nav {
     text-align: left;
 }
 
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .david-box p {
+        color: #565170;
+        font-size: small;
+    }
+}
+
 /*---eddie van halen page---*/
 
 .eddie-box h1 {
@@ -383,10 +406,27 @@ nav {
     text-align: left;
 }
 
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .eddie-box p {
+        color: #aea3eb;
+        font-size: small;
+    }
+}
+
 /*---about me page---*/
 
 .text-box p {
     color: #ccb371;
+}
+
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
 }
 
 /*---social media icons---*/
@@ -417,6 +457,12 @@ li:hover {
     transition: 0.5s;
 }
 
+@media(max-width: 700px) {
+    .icons .fa {
+        font-size: 20px;
+        align-items: center;
+    }
+}
 
 /*---contact page---*/
 
@@ -508,6 +554,16 @@ button {
 
 tr td:first-child {
     padding-right: 20px;
+}
+
+@media(max-width: 700px) {
+    .contact-left h3 {
+        font-size: 20px;
+    }
+
+    .contact-right h3 {
+        font-size: 20px;
+    }
 }
 
 /*---footer---*/
