@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----headers----*/
+
+
+.headermain {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headerpagelist {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headerclapton {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headergilmour {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headervanhalen {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headercontact {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headerabout {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*-------------------*/
+
+/*----section nav-links----*/
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font: size 50px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e2ab07;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+}
+
+/*----Text-box index page----*/
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 70px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/*---- click here to find outmore button----*/
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #e2ab07;
+    background: #e2ab07;
+    transition: 1s;
+}
+
+/*---media query section---*/
+
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+}
