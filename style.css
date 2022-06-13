@@ -308,14 +308,16 @@ nav {
 }
 
 .eric-box p {
-    width: 50%;
+    width: 80%;
     color: #fff;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 48%;
     transform: translate(-50%, 50%);
     text-align: left;
 }
+
+
 
 /*----david gilmour page----*/
 
@@ -438,6 +440,74 @@ li:hover {
     padding: 40px 60px;
     background: #1c00b5;
     color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    margin-bottom: 40px;
+    color: rgb(173, 132, 30);
+    font-size: 140%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+
+button {
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact-left h3 {
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
 }
 
 /*---footer---*/
