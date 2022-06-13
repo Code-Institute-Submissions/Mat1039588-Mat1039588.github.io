@@ -33,10 +33,26 @@ I wanted to use background images of the musicians I talked about to emphatise e
 
 I have use fonts taken from google.com, icons taken from fontawesome and applied all of them to every single pages.
 
-The main page (homepage) contains a navigation section, where every single element had been linked to the related page. it has been made using the <a href> tag and via the style.css document, the page got some more color and detail and nice effects.
+The main page (homepage) contains a navigation section, where every single element had been linked to the related page. it has been made using the <em>anchor tag</em> and via the style.css document, the page got some more color and detail and nice effects.
 
-I also used the hero-btn to create a button linked to the list page where i have used three different images, each one with the name of the artist and anchored them via the <a> tag to each one of their dedicated pages.
+I also used the <em>hero-btn</em> to create a button linked to the list page where i have used three different images, each one with the name of the artist and anchored them via the same tag to each one of their dedicated pages.
 
 I made sure that every page presented the same style and the same layout.
 
 I have encountered many problems whilst writing my code. But I do believe, most of the bugs encoutered, have been fixed.
+
+the css part is very articulate, many sections have been included and a media query has also been added even though the final result on mobile devices could be definitely better.
+
+
+All the pages have been tested using the W3C validator:
+few bugs have been found nad fixed.
+
+all of the pages created have been tested using LIGHTHOUSE on google.com and reached the same result, with just few score differences:
+
+1. Performance: 90%
+2. Acessibility: 80-05%
+3. Best Practice 95%
+4. SEO 90%
+5. Overall score: 88-90%
+
+there are definitely area where improvement is needed, but it is a functional responsive website.
