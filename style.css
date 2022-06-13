@@ -95,7 +95,7 @@ nav {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font: size 50px;
+    font: size 70px;
 }
 
 .nav-links ul li::after {
@@ -119,7 +119,7 @@ nav {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
@@ -127,6 +127,7 @@ nav {
 
 .text-box h1 {
     font-size: 60px;
+    color: #e2ab07;
 }
 
 .text-box p {
@@ -307,10 +308,10 @@ nav {
 }
 
 .eric-box p {
-    width: 80%;
+    width: 50%;
     color: #fff;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 48%;
     transform: translate(-50%, 50%);
     text-align: left;
@@ -346,4 +347,106 @@ nav {
     left: 48%;
     transform: translate(-50%, 50%);
     text-align: left;
+}
+
+/*---eddie van halen page---*/
+
+.eddie-box h1 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+.eddie-box h2 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.eddie-box p {
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+/*---about me page---*/
+
+.text-box p {
+    color: #ccb371;
+}
+
+/*---social media icons---*/
+
+.icons {
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    transform: translate(-53%, -50%);
+
+}
+
+.icons li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    color: #e2ab07;
+    border: 1px solid rgb(237, 220, 220);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+li:hover {
+    color: #e2ab07;
+    border: 1px solid #e2ab07;
+    transition: 0.5s;
+}
+
+
+/*---contact page---*/
+
+.container {
+    width: 80%;
+    margin: 200px auto;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px 60px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+/*---footer---*/
+
+.footer {
+    margin-right: 100px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(212, 212, 195);
 }
