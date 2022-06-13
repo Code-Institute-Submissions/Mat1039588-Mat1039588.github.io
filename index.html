@@ -12,8 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,36 +21,44 @@
 
     <section class="headermain">
         <nav>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
 
         <div class="text-box">
             <h1>The Most Influential Guitar Players Of All Times</h1>
             <br>
             <p><em>Guitars that shook the world!</em></p>
-            <a href="" class="hero-btn">Click here to find out more!</a>
+            <a href="pagelist.html" class="hero-btn">Click here to find out more!</a>
         </div>
+        <div class="icons">
+            <ul>
+                <li><i class="fa fa-facebook-square"></i></li>
+                <li><i class="fa fa-instagram"></i>
+                </li>
+                <li><i class="fa fa-twitter-square"></i>
+                </li>
+                <li><i class="fa fa-linkedin-square"></i>
+                </li>
+                <li><i class="fa fa-github-square"></i>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <section class="footer">
+                <h4>This website has been made using HTML and CSS <br> part of the first project of the Software
+                    Development Course @CodeInstitute. <br> London, 2022</h4>
+            </section>
 
+        </div>
     </section>
 
-    <!----Javascript for toggle menu---->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
+
 </body>
 
 </html>
