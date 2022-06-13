@@ -173,7 +173,7 @@ nav {
 }
 
 .row {
-    margin-top: 15%;
+    margin-top: 5%;
     display: inline-flex;
     justify-content: space-around;
 }
@@ -281,4 +281,69 @@ nav {
 
 .layer:hover h3 {
     bottom: 49%;
+}
+
+/*----eric clapton page----*/
+
+
+.eric-box h1 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+.eric-box h2 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.eric-box p {
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+/*----david gilmour page----*/
+
+.david-box h1 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+.david-box h2 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.david-box p {
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, 50%);
+    text-align: left;
 }
