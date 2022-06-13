@@ -28,7 +28,7 @@
 .headerclapton {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/3/56/Yzt4br.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -37,7 +37,7 @@
 .headergilmour {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-image: url(https://www.brain-damage.co.uk/old/downloads/dgmeraw12801.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -46,7 +46,7 @@
 .headervanhalen {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://cdn.wallpapersafari.com/8/65/F7uYSV.jpg);
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_41/3417980/201006-eddie-van-halen-jm-1539.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -126,12 +126,12 @@ nav {
 }
 
 .text-box h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -155,11 +155,45 @@ nav {
     transition: 1s;
 }
 
+/*---icons for the toggle menu on mobile devices---*/
+
+nav .fa {
+    display: none;
+}
+
 /*---media query section---*/
 
 @media(max-width: 700px) {
     .text-box h1 {
         font-size: 20px;
     }
+}
+
+.nav-links ul li {
+    display: block;
+}
+
+.nav-links {
+    position: absolute;
+    background: #e2ab07;
+    height: 100vh;
+    width: 200px;
+    top: 0%;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+}
+
+nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-links ul {
+    padding: 30px;
 
 }
